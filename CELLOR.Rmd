@@ -2,7 +2,7 @@
 title: "CELLO: Cancer EvoLutionary analysis using LOngitudinal genomic data"
 author: "SONG, Dong"
 date: "1/15/2020"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -824,7 +824,7 @@ getTEDG <- function(mutation_gene_table){
 
 ## CELLO Pipeline
 ```{r}
-savi.table<-somaticfilter("../input.savi.report.txt",25,4)
+savi.table<-somaticfilter("./input.savi.report.txt",25,4)
 head(savi.table[,1:12])
 ```
 

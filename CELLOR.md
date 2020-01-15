@@ -89,7 +89,7 @@ library("igraph")
 ## CELLO Pipeline
 
 ``` r
-savi.table<-somaticfilter("../input.savi.report.txt",25,4)
+savi.table<-somaticfilter("./input.savi.report.txt",25,4)
 head(savi.table[,1:12])
 ```
 
